@@ -1,0 +1,296 @@
+.post-office {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #f5f8fc;
+}
+
+.post-office form {
+  display: flex;
+  flex-direction: column;
+}
+
+.postoffice-layout {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.post-office nav h1 {
+  font-size: 1.17em;
+}
+
+.post-office nav a {
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 10px;
+  border-radius: 100px;
+  background: #fbfcfd;
+  text-decoration: none;
+  letter-spacing: .25px;
+  color: rgb(45, 45, 45);
+  padding: 6px 18px 6px 18px;
+  border: 1px solid #dbdbdb;
+}
+
+.img-container { 
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E4F3FC;
+}
+
+.post-office img {
+  width: 100%;
+  transform: translateY(-15%); 
+}
+
+.po-box-list {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+  border-left: none;
+  gap: 8px;
+}
+
+
+.po-box {
+  width: 140px;
+  height: 80px;
+  display: flex;
+  color: #233761;
+  font-weight: 500;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+  background-color: rgb(206, 127, 71);
+}
+
+.post-office-form {
+  width: 50%;
+}
+
+.inner-po-box {
+  width: 132px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FBB040;
+}
+
+.masked-corners {
+  mask: 
+    radial-gradient(circle at top left, transparent 11px , black 12px), 
+    radial-gradient(circle at top right, transparent 11px , black 12px),
+    radial-gradient(circle at bottom right, transparent 11px , black 12px),
+    radial-gradient(circle at bottom left, transparent 11px , black 12px),
+    linear-gradient(black,black);
+  mask-composite: exclude;
+  -webkit-mask-composite: destination-in;
+}
+
+.post-office-form section {
+  display: flex;
+  width: initial;
+  flex-direction: column;
+  padding: 10px 15px 10px 15px;
+}
+
+.post-office-form h4, p, input, textarea {
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.post-office-form button {
+  margin-top: 8px;
+  background-color: #8098e1;
+  border: none;
+  padding: 12px;
+  font-weight: 600;
+  letter-spacing: .5px;
+  color: white;
+  border-radius: 5px;
+}
+
+.post-office-form button:active {
+  background-color: #758dd5;
+}
+
+.post-office-form input, textarea {
+  padding: 6px;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+}
+
+.post-office-form header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px 15px 10px 15px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.post-office-form p {
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 10px;
+  border-radius: 100px;
+  text-decoration: none;
+  letter-spacing: .25px;
+  color: rgb(45, 45, 45);
+  padding: 6px 18px 6px 12px;
+  border: 1px solid #dbdbdb;
+}
+
+.post-office-form header button {
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 12px;
+  padding: 6px 28px 6px 28px;
+}
+
+.post-office-form header h3 {
+  margin: 0;
+  margin-right: auto;
+}
+
+.box-holders h4, p {
+  margin: 0;
+}
+
+.box-holders h4 {
+  margin-bottom: 12px;
+}
+
+.box-holders div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 12px 0px 12px 0px;
+}
+
+.box-holders div p {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 14px;
+  margin-right: auto;
+}
+
+.box-holders div button {
+  margin: 0;
+  font-size: 12px;
+  background: none;
+  color: #708BDB;
+  padding: 6px 12px 6px 12px;
+  border: 1px solid #93a8e8;
+}
+
+.box-holders div button:active {
+  background: #e0e8ff;
+}
+
+.box-details {
+  width: 50%;
+}
+
+.box-details header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px 15px 10px 15px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.box-details header h3 {
+  margin: 0;
+  margin-right: auto;
+}
+
+table {
+  margin: 5px;
+  font-size: 14px;
+  border-spacing: 0;
+  border-radius: 5px;
+  background: #efefef;
+  border-collapse: collapse;
+  border: 1px solid #dedede;
+}
+
+tbody tr:nth-child(odd){
+  background-color: #fbfbfb;
+}
+
+table th {
+  text-align: left;
+  padding: 5px 10px 5px 10px;
+  border: .25px solid #dedede;
+  background-color: #ffffff;
+}
+
+table td {
+  margin: 0;
+  padding: 0;
+  padding: 5px 10px 5px 10px;
+}
+
+#letter-date {
+  font-size: 12px;
+}
+
+#letter-checkbox {
+  text-align: center;
+}
+
+#letter-checkbox input {
+  margin: 0;
+}
+
+#letter-content {
+  padding: 10px;
+  border-bottom: 1px solid #dedede;
+}
+
+.post-office select {
+  border-radius: 100px;
+  margin-left: 10px;
+  -webkit-appearance: none; 
+  padding: 6px 28px 6px 12px;
+  border: 1px solid #dbdbdb;
+  background: url('../assets/arrow2.png') 92% no-repeat;
+}
+
+#submit-box-btn {
+  margin: 0;
+  border: none;
+  color: white;
+  background: none;
+  margin-left: 12px;
+  letter-spacing: .5px;
+  padding: 6px 18px 6px 18px;
+  border: 1px solid #708BDB;
+  background-color: #8098e1;
+}
+
+#add-boxholder {
+  color: #708BDB;
+  background-color: #ebf1ff;
+  border: 1px solid #708BDB;
+}
+
+.status-msg{
+  padding: 0px 14px;
+}
+
+.status-msg button{
+  margin: 0;
+  margin-right: 12px;
+  border-radius: 6px;
+  background: none;
+  color: #708BDB;
+  padding: 6px 12px 6px 12px;
+  border: 1px solid #708BDB;
+}

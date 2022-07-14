@@ -1,0 +1,90 @@
+.bank {
+  background: #e36a0c;
+  height: 100%;
+}
+
+.bank section {
+  display: flex;
+}
+
+.bank nav h1 {
+  font-size: 1.17em;
+}
+
+.account {
+  width: 100%;
+  padding: 12px 10px;
+  border-radius: 8px;
+  background: #fbfcfd;
+  margin: 15px 7.5px 10px 7.5px;
+  border: 1px solid rgb(225, 225, 225);
+  box-shadow: 0px 5px 5px -1px rgba(2,15,46,0.18);
+}
+
+.account h3, section {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.account section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.account section p {
+  font-size: 15px;
+}
+
+.number-pad {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.number-pad button {
+  width: 33.3%;
+  height: 4vw;
+  display: flex;
+  color: white;
+  font-size: 1em;
+  min-height: 50px;
+  border-radius: 5px;
+  align-items: center;
+  background: #2689ec;
+  justify-content: center;
+  padding: 5px 0px 5px 0px;
+  border: 1px solid rgb(220, 220, 220);
+}
+
+#input-display {
+  height: 30px;
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  color: #537353;
+  padding: 5px 12px;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  align-items: center;
+  border: 1px solid white;
+  background: rgb(213, 230, 213);
+}
+
+.control-panel section {
+  margin: 0;
+  padding: 0;
+}
+
+.control-panel section > button {
+  width: 100%;
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: #3e474f;
+  padding: 6px 10px;
+  border-radius: 5px;
+  margin: 10px 2px 0px 2px;
+  box-shadow: 0px 3px 3px -1px rgba(2,15,40,0.15);
+}
+
