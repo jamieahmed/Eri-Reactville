@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom'
 
 import Wallet from "./Wallet"
 import Clock from './Clock'
-import Logo from '../../assets/react-logo.png'
+const Logo = 'https://tse1.mm.bing.net/th?id=OIP.K7KqaxcQvbUq0k_QrZpnWgHaFO&pid=Api&P=0'
 
 const Nav = (props) => {
   return (

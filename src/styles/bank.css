@@ -1,5 +1,4 @@
 .bank {
-  background: #e36a0c;
   height: 100%;
 }
 
@@ -17,7 +16,7 @@
   border-radius: 8px;
   background: #fbfcfd;
   margin: 15px 7.5px 10px 7.5px;
-  border: 1px solid rgb(225, 225, 225);
+  border: 1px solid #2689ec;
   box-shadow: 0px 5px 5px -1px rgba(2,15,46,0.18);
 }
 
@@ -51,7 +50,7 @@
   min-height: 50px;
   border-radius: 5px;
   align-items: center;
-  background: #2689ec;
+  background:green;
   justify-content: center;
   padding: 5px 0px 5px 0px;
   border: 1px solid rgb(220, 220, 220);
